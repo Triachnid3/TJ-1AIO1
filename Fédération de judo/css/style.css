@@ -1,0 +1,135 @@
+* {
+  transition: all 0.5s;
+  font-family: 'Varela Round', sans-serif;
+}
+body {
+  background: #ebebeb;
+}
+
+h1 {
+
+  font-family: 'Maven Pro', sans-serif; 
+  text-align: center;
+
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(62, 61, 63);
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item>a.btn {
+
+  background-color: #a71b16 ;
+  color: #ffffff ;
+  border-color: #ff0000;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  float: right;
+  margin-left: 5px;
+}
+
+.marker {
+
+  list-style: none;
+
+}
+
+.red {
+
+  color: red;
+  
+}
+
+.required {
+
+  float: right;
+  font-weight: 700;
+  font-size: large;
+
+}
+
+form {
+
+  width: 50%;
+  margin: auto;
+
+}
+
+form>button {
+
+float: right;
+
+}
+
+/* Profil */
+
+.h3_profil {
+
+  margin-bottom:2%;
+  margin-top:2%;
+  
+  }
+  
+  .p_profil {
+  
+    margin-top:50px;
+  
+  }
+  
+  .pinfo
+  {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    justify-content: space-around;
+  }
+  
+  a.btn_profil {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+  }
+  
+  .img_profile {
+  
+    align-items: center;
+  text-align: center;
+  margin-left : auto ;
+  margin-top:2%
+  }
+  .btnmod {
+    float : right
+  }
+
+/* Fin profil */
+
+footer{
+  background-color: rgb(62, 61, 63);
+  color: white;
+  text-decoration: underline;
+  position:inherit;
+  width:100%;
+  height:100px;
+  bottom: 0;
+  text-align: center;
+  padding-top: 40px;
+  font-size: large;
+  border-top: 2px solid #fff;
+}
+
+.licence
+{ 
+  align-items: center;
+}

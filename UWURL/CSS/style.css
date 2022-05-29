@@ -1,0 +1,157 @@
+nav{
+  background-color: #ffd2f7;
+  color: white;
+  text-decoration: underline;
+  position: absolute;
+  width:100%;
+  height:100px;
+  top: 0%;
+  text-align: center;
+  font-size: large;
+  border-bottom: 2px solid #fff;
+}
+nav>div>a{
+  float: right;
+  margin: 10px 20px;
+}
+nav>h1{
+  float:left;
+  text-align: center;
+  width:30%;
+}
+
+body {
+  background-color: rgb(237, 206, 255);
+}
+main{
+  display: unset;
+  height: 100%;
+  min-height: 100%;
+}
+a.btn-primary,button.btn-primary {
+  margin-top: 30px;
+  border: 2px solid #7263ff;
+  background-color: #cfccff;
+}
+
+.btn-login {
+  
+  position:unset;
+  margin-top: 30px;
+  border: 2px solid #7263ff;
+  background-color: #cfccff;
+  color: #FFFFFF;
+  
+}
+
+.wrapper {
+  background-color: #cfccff;
+}
+
+.wrapper .urls-area {
+  max-height: 300px;
+}
+
+#btn_qrcode {
+  position: initial;
+  padding: 5px 5px;
+  font-size: 15px;
+  border: 2px solid #7263ff;
+  background-color: #cfccff;
+}
+.themebtn {
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  align-items: center;
+  display:flex;
+}
+.themebtn>.theme>li {
+  list-style-type: none;
+}
+.themebtn>.theme>li>form {
+  margin: auto 10px;
+}
+.themebtn>.theme>li>form>button {
+  margin: 1% auto;
+  position: relative;
+  background-color: #7263ff;
+}
+
+.btn_search {
+  
+  position: initial;
+  border: 2px solid #7263ff;
+  background-color: #cfccff;
+  
+}
+
+button.btn_reload {
+  position: initial;
+  border: 2px solid #7263ff;
+  background-color: #cfccff;
+}
+
+a.btn.btn-primary.btn_back {
+  
+  margin: auto;
+  float: right;
+  
+}
+
+button.btn.btn-primary.btn-register {
+
+  position: relative;
+  float: right;
+
+}
+
+/* Pour l'admin : */
+tr:nth-child(even) {
+  background-color: #ffd2f7;
+}
+tr:nth-child(odd) {
+  background-color: #cfccff;
+}
+
+.admin_dropdown {
+  background-color: #ffd2f7;
+}
+#table-wrapper {
+  position:relative;
+}
+#table-scroll {
+  height:200px;
+  overflow:auto;  
+  margin-top:20px;
+}
+#table-wrapper table {
+  width:100%;
+}
+#table-wrapper table * {
+  color:black;
+}
+#table-wrapper table thead th .text {
+  position:absolute;   
+  top:-20px;
+  z-index:2;
+  height:20px;
+  width:35%;
+  border:1px solid red;
+}
+
+footer{
+  background-color: #cfccff;
+  color: white;
+  text-decoration: underline;
+  display: block;
+  position: absolute;
+  width:100%;
+  height:100px;
+  margin-top: 100px;
+  bottom: 0;
+  text-align: center;
+  padding-top: 40px;
+  font-size: large;
+  border-top: 2px solid #fff;
+}
