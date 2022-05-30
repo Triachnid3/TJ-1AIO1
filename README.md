@@ -25,6 +25,8 @@ En plus de tout cela, il est possible de changer le thème du site depuis les bo
 
 Vous pouvez consulter l'application en ligne avec l'addresse https://uwurl.fr ou faire des tests par vous-même avec les fichiers sources disponibles dans ce répertoire. 
 
+L'identifiant "test" et mot de passe "test" permettent de se connecter avec un accès administrateur pour la démonstration.
+
 --- 
 
 Pour la fédération de Judo, le plus important était de réaliser l'architcture de la base de données que vous pourrez retrouver dans le fichier "iy2bt_fwjudo.sql". Cependant, nous avons décidé de tout de même démarrer une ébauche de ce à quoi pourrez ressembler le site. Les fonctionnalités dessus sont encore très précaires et contiennent encore des bugs mais nous comptons bien encore essayer d'améliorer tout ceic avec un système de messagerie entre autres fonctionnalités !
